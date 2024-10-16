@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(4, 38, 66);
+    height: 98vh;
+}
+.forecast{
+    background-color: rgb(4, 38 66);
+    color: bisque;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    height: 70vh;
+    align-items: center;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: rgb(17, 56, 102);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
+.orange{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(243, 166, 24);
+}
+.white{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(241, 239, 235);
+}
+.sun{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.degree{
+    margin-left: 10px;
+    font-size: 15px;
+}
